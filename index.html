@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/2eb177939b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- index css -->
+    <link rel="stylesheet" href="./assets/css/index.css" >
+    <title>home page</title>
+  </head>
+  <body>
+    <!-- main long area -->
+    <!-- this is the first banner main section -->
+    <main id="home">
+      <img src="./assets/img/main.jpg" alt="tour main " >
+
+      <!-- header -->
+      <header class="common-width">
+        <a href="#home" class="logo"> TripArea </a>
+        <ul>
+          <li>
+            <a href="#about"> About us </a>
+          </li>
+
+          <li>
+            <a href="#events"> Upcoming Events </a>
+          </li>
+          <li>
+            <a href="#tours">Tours</a>
+          </li>
+        </ul>
+        <div class="burger-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+      </header>
+
+      <!-- the content of main section -->
+
+      <div class="common-width content-area">
+        <h1>Tours are the best way to learn beautiful things.</h1>
+        <p>
+          Live life with no excuses, travel with no regret. Check out our new
+          tours listed below.
+        </p>
+        <div class="button-wrapper">
+          <a href="#tours"> See our tours </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- about us section witht the id of about -->
+    <section class="about-us" id="about">
+      <div class="common-width">
+        <!-- left side content -->
+        <div class="left-side">
+          <h2>About Us</h2>
+          <p>
+            We specialize in tours to Malta but are always expanding and
+            enhancing our wide range of offers, as well as adding new and
+            exciting tours of Britain, Italy, Eastern Europe, Mexico and the
+            Caribbean. A five members team owned business based in Malta, tour
+            main TripArea was founded in 2032 by five team members. The humble
+            beginning it has grown into a trusted resource that has helped tens
+            of thousands of people better enjoy their travel.
+          </p>
+          <p>
+            Our main aim is to provide quality service to you at a very
+            reasonable cost. We promote Malta as a safe and the most enjoyable
+            secrets. Our tours are specially designed to give comfort and a
+            variety of things to do. We take special care of our clients during
+            their Travel in Malta, by providing them a very personal touch. Our
+            Guides & Tour managers are trained to form a very friendly relation
+            with tourists.
+          </p>
+
+          <div class="buttons-wrapper">
+            <a href="#events"> Upcoming Events </a>
+          </div>
+        </div>
+
+        <!-- right side content about us image -->
+        <div class="right-side">
+          <img src="./assets/img/about-us.jpg" alt="smiling face" >
+        </div>
+      </div>
+    </section>
+
+    <!-- upcoming events area -->
+    <section class="upcoming-events" id="events">
+      <h2>Upcoming Events</h2>
+      <div class="common-width">
+        <!-- the dynamic rendering of event using js -->
+        <div class="grid-area"></div>
+      </div>
+    </section>
+    <!-- tours section -->
+    <section class="tours-section" id="tours">
+      <h2>Tours</h2>
+      <div class="common-width">
+        <!-- the dynamic rendering of event using js -->
+        <div class="grid-area"></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="common-width">
+        <p>&copy; TripArea 2023 All right reserved</p>
+      </div>
+    </footer>
+
+    <!-- js files -->
+    <script src="./assets/js/upcomingevents.js" ></script>
+    <script src="./assets/js/tours.js" ></script>
+    <script src="./assets/js/index.js" ></script>
+  </body>
+</html>
